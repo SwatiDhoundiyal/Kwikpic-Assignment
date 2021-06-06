@@ -1,0 +1,11 @@
+For building and training a Emotion Detection Model using Face recognition, following steps can be followed:
+1. First step is to download a image dataset of Face Emotion recognition.
+2. Building a neural network model of image classification in keras.
+3. Divide the dataset into two types: Training data and testing data.
+4. Reshaping all the training images into a specific size and putting it into the model to train the model.
+5. Using image augemntations to improve the model performance.
+6. After a satisfying accuracy, save the model.
+7. Then testing the model on the test data.
+8. Some tuning of the hyperparameters can be done if required.
+9. Take the image input and our model will predict the emotion.
+10.The model is ready.
