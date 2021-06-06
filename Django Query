@@ -1,0 +1,4 @@
+To retrieve a single object for a Django model called Attendee with primary key=7, following queries can be used:
+Attendee.objects.filter(pk=7)
+         OR
+Attendee.objects.get(pk=7)
