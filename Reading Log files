@@ -1,0 +1,5 @@
+For reading the last 200 lines of cron.log file, following bash commands can be used:
+
+tail -n 200 cron.logs                   #will fetch the last 200 lines from cron.logs
+
+tail -n 200 cron.log > output.log       # will fetch the last 200 lines from cron.log & store the into a new file output.log 
