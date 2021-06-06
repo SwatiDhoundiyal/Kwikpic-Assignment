@@ -2,11 +2,11 @@ Commands for start/stop/restart services using Systemctl in Linux:
 
 Systemctl is a controller or utility of Systemd with auxiliary in manage services, these commands are executed in mode root, if one is not in mode root system, requesting password of root.
 
--->For starting a service:
-sudo systemctl start cronListener
+For starting a service:
+-->sudo systemctl start cronListener
 
--->For stopping a service:
-sudo systemctl stop cronListener
+For stopping a service:
+-->sudo systemctl stop cronListener
 
--->For restarting a service:
-sudo systemctl restart cronListener
+For restarting a service:
+-->sudo systemctl restart cronListener
